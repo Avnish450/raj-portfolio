@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Build artifacts
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# SQLite Database (persisted locally, never committed)
+backend/feedback.db
+backend/test_*.db
+*.db
+
+# Environment variables
+.env
+frontend/.env
+backend/.env
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
